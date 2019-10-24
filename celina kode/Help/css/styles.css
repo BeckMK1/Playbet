@@ -1,0 +1,57 @@
+body {
+background: #333333;
+margin: 0;
+}
+.help-heading {
+background-color: #201F1F;
+color: white;
+font-family: futura-pt, sans-serif;
+text-align: center;
+padding: 1px;
+margin: 0px 0px 0px 0px;
+}
+
+
+#accordion h3 {
+  text-align: center;
+color: white;
+font-family: mr-eaves-modern, sans-serif;
+font-weight: 400;
+font-size: 20px;
+border-bottom: 1px solid grey;
+letter-spacing: 1.5px;
+padding-top: 30px;
+padding-bottom: 30px;
+margin: 0px 0px 0px 0px;
+}
+
+#accordion div {
+text-align: center;
+color: #201F1F;
+background-color: white;
+font-family: mr-eaves-modern, sans-serif;
+font-size: 16px;
+padding: 10px;
+margin: 0px 0px 0px 0px;
+}
+
+p {
+  margin: 0px 0px 0px 0px;
+}
+
+
+
+#kontakt-yderligere { 
+  font-weight: 400;
+  color: #ffffff;
+background: #201F1F;
+font-family: mr-eaves-modern, sans-serif;
+font-size: 20px;
+letter-spacing: 1.5px;
+text-align: center;
+padding-top: 30px;
+padding-bottom: 30px;
+padding-left: 10px;
+padding-right: 10px;  
+line-height: 25px;
+}
