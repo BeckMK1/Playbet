@@ -1,6 +1,5 @@
 body
 {
-	font-family: sans-serif;
 	background: #707070;
 	margin: 0;
 }
@@ -13,21 +12,26 @@ h1 {
 	background-color: #201F1F;
 	padding-top: 10px;
 	padding-bottom: 10px;
+	font-family: futura-pt, sans-serif;
 }
-p {
+h2 {
+	font-weight: 400;
+font-size: 20px;
+letter-spacing: 1.5px;
 	margin: 1px;
 	color: white;
 	background-color: #201F1F;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	text-align: center;
+	font-family: mr-eaves-modern, sans-serif;
 }
 .flex-container .tekst {
 	margin: 1px;
 	color: white;
 	background-color: #333333;
-	padding-top: 30px;
-	padding-bottom: 18px;
+	padding-top: 18px;
+	padding-bottom: 13px;
 	padding-left: 25px;
 	display: flex;
 }
@@ -43,9 +47,11 @@ p {
 .flex-container .tekst {
 	font-size: 1.2em;
 }
-h2 {
-	font-size: 0.9em;
-	font-weight: 500;
+h3 {
+	font-weight: 400;
+font-size: 20px;
+letter-spacing: 1.5px;
+	font-family: mr-eaves-modern, sans-serif;
 }
 
 .sidebar {position: fixed;
@@ -62,7 +68,9 @@ h2 {
 	ul{margin: 0;
 	padding: 20px 0;}
 	
-	ul li{list-style:none;}
+	ul li{list-style:none;
+		font-family: futura-pt, sans-serif;
+	}
 	
 	ul li a {padding: 10px 20px;
 	color: #fff;
