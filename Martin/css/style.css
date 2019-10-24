@@ -4,7 +4,22 @@
 }
 
 body{
+  display: flex;
+  justify-content: center;
+}
+
+main{
+  position: relative;
   background-image: url('../handball.jpg');
   background-position: center;
   background-size: cover;
+  width: 450px;
+  height: 100vh;
+}
+
+.gradinent{
+  position: absolute;
+  width: 450px;
+  height: 100vh;
+  background-color: blue;
 }
