@@ -1,4 +1,4 @@
-@media (min-width: 320px) and (max-width: 480px) {
+
 p,img{
 padding: 0;
 margin: 0;
@@ -57,7 +57,7 @@ p{
     border-left: 1px solid black;
     height: 37px;
     }
-    
+
     .bet-AL{
     position: relative;
     background-color:white;
@@ -84,7 +84,7 @@ p{
     position: relative;
     bottom:48px;
     left: 98px;
-    }   
+    }
 
     .lineR{
         z-index: 1;
@@ -118,5 +118,4 @@ p{
         position: relative;
         left: 122px;
         bottom:10px;
-    }
 }
