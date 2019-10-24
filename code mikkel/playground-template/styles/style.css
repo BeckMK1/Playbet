@@ -1,0 +1,122 @@
+@media (min-width: 320px) and (max-width: 480px) {
+p,img{
+padding: 0;
+margin: 0;
+}
+p{
+    font-family: futura-pt,sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+    #bet-box {
+        position: absolute;
+        left: 22px;
+        top: 60px;
+        height: 750px;
+        width: 450px;
+        background-color: #201f1f;
+    }
+
+    #bet-text {
+        font-family: futura-pt-bold,sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        position: absolute;
+        color: white;
+        left: 40%;
+        top: 10px;
+        font-size: 30px;
+    }
+
+    #betters{
+    position: absolute;
+    top: 55px;
+    height: 750px;
+    width: 450px;
+    }
+
+    .bet {
+        height: 134px;
+        width: 100%;
+        background: linear-gradient(#323232, #2d2d2d);
+        border-radius: 5px;
+    }
+    .bet-Q{
+    position: relative;
+    font-size: 20px;
+    left: 40%;
+    color: white;
+    top: 10px;
+    }
+
+    .lineL{
+    z-index: 1;
+    position: relative;
+    left:145px;
+    top:23px;
+    border-left: 1px solid black;
+    height: 37px;
+    }
+    
+    .bet-AL{
+    position: relative;
+    background-color:white;
+    height: 40px;
+    width: 150px;
+    left: 50px;
+    top:-15px;
+    border-radius: 2px;
+    }
+
+    .bet-AL p{
+    position: relative;
+    top:10px;
+    left: 5px;
+    }
+
+    .bet-AL img{
+    position: relative;
+    left: 122px;
+    bottom:10px;
+    }
+
+    .cost{
+    position: relative;
+    bottom:48px;
+    left: 98px;
+    }   
+
+    .lineR{
+        z-index: 1;
+        position: relative;
+        right:105px;
+        bottom: 53px;
+        border-left: 1px solid black;
+        height: 37px;
+        float: right;
+
+    }
+
+    .bet-AR{
+    position: relative;
+    background-color: white;
+    height: 40px;
+    width: 150px;
+    float: right;
+    bottom: 55px;
+    right: 50px;
+    border-radius: 2px;
+    }
+
+    .bet-AR p{
+        position: relative;
+        top:10px;
+        left: 5px;
+    }
+
+    .bet-AR img{
+        position: relative;
+        left: 122px;
+        bottom:10px;
+    }
+}
