@@ -49,7 +49,7 @@ right: -50px;
     display: block;
     width: 35px;
     height: 3px;
-    background: #262626;
+    background: #FFFFFF;
     position: absolute;
     top: 24px;
     transition: .3s;
@@ -63,7 +63,7 @@ right: -50px;
     left: 0;
     width: 100%;
     height: 3px;
-    background: #262626;
+    background: #FFFFFF;
     transition: .3s;
 }
 
@@ -75,7 +75,7 @@ right: -50px;
     left: 0;
     width: 100%;
     height: 3px;
-    background: #262626;
+    background: #FFFFFF;
     transition: .3s;
 }
 
