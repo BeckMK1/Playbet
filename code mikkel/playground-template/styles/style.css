@@ -3,14 +3,14 @@ p,img{
 padding: 0;
 margin: 0;
 }
-p{
+p .cost #total{
     font-family: futura-pt,sans-serif;
     font-weight: 500;
     font-style: normal;
 }
     #bet-box {
         position: absolute;
-        left: 22px;
+        left: 40%;
         top: 60px;
         height: 750px;
         width: 450px;
