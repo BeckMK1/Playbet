@@ -13,9 +13,9 @@ $(document).ready(function(){
         $('.sidebar').toggleClass('active')
         $('.sidebarbtn').toggleClass('toggle')
                               
-    })
+    });
     //faq
     $( function() {
         $( "#accordion" ).accordion();
-      } );
+      });
 });
