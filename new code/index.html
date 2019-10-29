@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+  <main id="site">
+  <div class="gradinent"></div>
+  <div class="test"></div>
+  <script>
+    window.fbAsyncInit = function() {
+      FB.init({
+        appId      : '622572058147678',
+        cookie     : true,
+        xfbml      : true,
+        version    : 'v4.0'
+      });
+
+      FB.AppEvents.logPageView();
+      FB.getLoginStatus(function(response) {
+      statusChangeCallback(response);});
+
+    };
+
+    (function(d, s, id){
+       var js, fjs = d.getElementsByTagName(s)[0];
+       if (d.getElementById(id)) {return;}
+       js = d.createElement(s); js.id = id;
+       js.src = "https://connect.facebook.net/en_US/sdk.js";
+       fjs.parentNode.insertBefore(js, fjs);
+     }(document, 'script', 'facebook-jssdk'));
+
+  </script>
+
+  <div id="fb-root"></div>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/da_DK/sdk.js#xfbml=1&version=v4.0&appId=2368516123268612&autoLogAppEvents=1"></script>
+
+  <div class="login-content">
+  <div class="login">
+    <div class="logo-forside">
+      <img src="image/playbet_logo.png" alt="">
+      <div class="sponsor">
+        <h3>Sponsoreret af</h3>
+        <img src="image/bygma.jpg" alt="">
+      </div>
+    </div>
+
+    <div class="google">
+      <img src="image/google-icon.svg" alt="">
+      <h3>Login med google</h3>
+    </div>
+
+    <div class="fb-login-button" data-max-rows="1" data-size="large" data-button-type="continue_with" data-use-continue-as="true">
+    </div>
+
+    <div class="or">
+
+    <div class="line">
+
+    </div>
+    <h3>eller</h3>
+    <div class="line"></div>
+    </div>
+    <div class="email"><a href="pages/betting.html"><h3>Login med e-mail</h3></a></div>
+  </div>
+  </div>
+
+  </main>
+
+
+
+
+
+</body>
+</html>
