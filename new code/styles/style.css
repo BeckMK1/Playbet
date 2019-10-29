@@ -303,7 +303,7 @@ p .cost #total {
     top: 10px;
 }
 
-.lineL {
+#lineL1,#lineL2,#lineL3,#lineL4,#lineL5 {
     z-index: 1;
     position: relative;
     left: 145px;
@@ -428,7 +428,7 @@ p .cost #total {
     left: 98px;
 }
 
-.lineR {
+#lineR1, #lineR2, #lineR3, #lineR4, #lineR5 {
     z-index: 2;
     position: relative;
     right: 105px;
