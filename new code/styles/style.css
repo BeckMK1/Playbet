@@ -174,10 +174,12 @@ ul li a {
 }
 
 .logo img {
+    position: relative;
     height: auto;
     width: 150px;
     padding-left: 120px;
-    padding-top: 5px
+    padding-top: 5px;
+    left:30px;
 }
 
 .listen img {
