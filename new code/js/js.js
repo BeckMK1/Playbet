@@ -1,7 +1,7 @@
 $(document).ready(function(){
     // betting page
-    var full = 1000;
-    var cost = 70;
+    var full = 100;
+    var cost = 5;
     $("#total").html(full);
     $(".cost").html(cost);
     // bet function left
